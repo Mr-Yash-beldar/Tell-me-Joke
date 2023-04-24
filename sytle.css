@@ -1,10 +1,27 @@
 body{
     background: #77bfa1;
 }
-#container{
+
+#container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+}
+#btn {
+    margin-top: 20vh;
+    border:none;
+    background: transparent;
+    color:white;
+    border:2px solid white;
+    padding: 10px 50px;
+    cursor:pointer
+
+}
+
+#content {
+    margin:auto;
+    padding:4vh;
+    font-size:1.2;
 }
