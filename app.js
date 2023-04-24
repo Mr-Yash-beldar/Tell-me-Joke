@@ -4,8 +4,8 @@ document.getElementById('btn').addEventListener('click',joke )
 
 async function joke() {
     let config={
-        Headers:{
-            Accept:"application/json",
+        headers:{
+            Accept:"application/json"
         },
     };
 
