@@ -12,6 +12,5 @@ async function joke() {
     let a=await fetch("https://icanhazdadjoke.com/",config);
     let b=await a.json();
     document.getElementById('content').innerHTML=b.joke;
-
-    
+  
 }
