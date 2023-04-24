@@ -23,5 +23,7 @@ body{
 #content {
     margin:auto;
     padding:4vh;
-    font-size:1.2;
+    font-size:1.2rem;
+    max-width: 700px;
+    margin-top: 20px;
 }
