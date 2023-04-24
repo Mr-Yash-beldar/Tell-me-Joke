@@ -2,6 +2,12 @@ body{
     background: #77bfa1;
 }
 
+h1 {
+    margin: auto;
+    font-size: 10vh;
+    
+}
+
 #container {
     display: flex;
     flex-direction: column;
